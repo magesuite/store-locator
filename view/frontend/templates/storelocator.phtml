@@ -1,0 +1,64 @@
+<section 
+    class="cs-store-locator"
+    id="store-locator"
+    data-image-path="<?= $this->getViewFileUrl('MageSuite_StoreLocator/images/store-locator'); ?>"
+>
+    <div class="cs-store-locator__sidebar">
+        <div class="cs-store-locator__store-details"></div>    
+        <div class="cs-store-locator__sidebar-toggler">
+            <?= $block->getChildHtml('store-locator.sidebar-toggler-icon'); ?>
+        </div>
+        <h1 class="cs-store-locator__title"><?= __('Find a store'); ?></h1>
+        <div class="cs-store-locator__search">
+            <form class="cs-store-locator__search-form" id="store-locator-search">
+                <input
+                    class="cs-store-locator__search-input"
+                    type="search"
+                    name="store-locator-search"
+                    value=""
+                    placeholder="<?= __('Search for Zip/Place') ?>"
+                    maxlength="100"
+                    aria-haspopup="false"
+                    aria-autocomplete="both"
+                    autocomplete="off">
+                <div class="cs-store-locator__search-autocomplete" id="cs-store-locator-autocomplete"></div>
+                <div class="cs-store-locator__search-action">
+                    <span class="cs-store-locator__search-close">
+                        <?= $block->getChildHtml('store-locator.icon.close'); ?>
+                        <span class="cs-store-locator__search-close-label"><?= /* @escapeNotVerified */ __('Close search'); ?></span>
+                    </span>
+                    <button class="cs-store-locator__search-button">
+                        <div class="cs-store-locator__search-button-container cs-store-locator__search-button-container--search">
+                            <?= $block->getChildHtml('store-locator.search.icon.submit'); ?>
+                        </div>
+                        <span class="cs-store-locator__search-button-label"><?= /* @escapeNotVerified */ __('Search'); ?></span>
+                    </button>
+                </div>
+                <button class="cs-store-locator__location-button">
+                    <?= $block->getChildHtml('store-locator.location-icon'); ?>
+                </button>
+        </form>
+        </div>    
+        <div class="cs-store-locator__stores-list">
+            <div class="cs-store-locator__stores-list-inner"></div> 
+        </div>    
+    </div>
+    <div class="cs-store-locator__map-container">
+        <div class="cs-store-locator__map" id="store-locator-map">
+        </div>    
+    </div> 
+</section>
+
+<!--
+* The async attribute allows the browser to render the page while the API loads
+-->
+<script>
+
+    window.emitMapLoadedEvent = function() {
+        console.log('emit');
+        var event = document.createEvent('Event');
+        event.initEvent('googlem', true, true);
+        // Dispatch the event.
+        document.getElementById('store-locator').dispatchEvent(event);
+    }
+</script>
