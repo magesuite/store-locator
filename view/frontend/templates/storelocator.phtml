@@ -20,16 +20,28 @@
                     maxlength="100"
                     aria-haspopup="false"
                     aria-autocomplete="both"
-                    autocomplete="off">
-                <div class="cs-store-locator__search-autocomplete" id="cs-store-locator-autocomplete"></div>
+                    autocomplete="off"
+                    data-mage-init='{
+                "storeLocatorQuickSearch":{
+                    "formSelector":"#store-locator-search",
+                    "url":"<?= /* @escapeNotVerified */ $block->getUrl('graphql'); ?>",
+                    "destinationSelector":"#store-locator-autocomplete",
+                    "submitBtn":"#store-locator-form-button"
+                }
+            }'
+                >
+                <div class="cs-store-locator__search-autocomplete" id="store-locator-autocomplete"></div>
                 <div class="cs-store-locator__search-action">
                     <span class="cs-store-locator__search-close">
                         <?= $block->getChildHtml('store-locator.icon.close'); ?>
                         <span class="cs-store-locator__search-close-label"><?= /* @escapeNotVerified */ __('Close search'); ?></span>
                     </span>
-                    <button class="cs-store-locator__search-button">
+                    <button class="cs-store-locator__search-button" id="store-locator-form-button">
                         <div class="cs-store-locator__search-button-container cs-store-locator__search-button-container--search">
                             <?= $block->getChildHtml('store-locator.search.icon.submit'); ?>
+                        </div>
+                        <div class="cs-store-locator__search-button-container cs-store-locator__search-button-container--loader">
+                            <?= $block->getChildHtml('store-locator.search.icon.loader'); ?>
                         </div>
                         <span class="cs-store-locator__search-button-label"><?= /* @escapeNotVerified */ __('Search'); ?></span>
                     </button>
@@ -48,17 +60,3 @@
         </div>    
     </div> 
 </section>
-
-<!--
-* The async attribute allows the browser to render the page while the API loads
--->
-<script>
-
-    window.emitMapLoadedEvent = function() {
-        console.log('emit');
-        var event = document.createEvent('Event');
-        event.initEvent('googlem', true, true);
-        // Dispatch the event.
-        document.getElementById('store-locator').dispatchEvent(event);
-    }
-</script>

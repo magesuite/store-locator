@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <page 
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <body>
         <referenceContainer name="main.content" htmlClass="" />
         <referenceContainer name="page.main.container.inner" htmlClass="" />
@@ -20,7 +20,7 @@
                     </block>
                     <block class="MageSuite\ThemeHelpers\Block\Icon" name="store-locator.search-icon">
                         <arguments>
-                            <argument name="icon_url" xsi:type="string">images/icons/search.svg</argument>
+                            <argument name="icon_url" xsi:type="string">images/icons/store-locator/icon-search.svg</argument>
                             <argument name="css_class" xsi:type="string">cs-store-locator__search-icon</argument>
                             <argument name="inlined" xsi:type="boolean">true</argument>
                             <argument name="lazy_loaded" xsi:type="boolean">false</argument>
@@ -28,7 +28,7 @@
                     </block>
                     <block class="MageSuite\ThemeHelpers\Block\Icon" name="store-locator.location-icon">
                         <arguments>
-                            <argument name="icon_url" xsi:type="string">images/icons/location.svg</argument>
+                            <argument name="icon_url" xsi:type="string">images/icons/store-locator/icon-location.svg</argument>
                             <argument name="css_class" xsi:type="string">cs-store-locator__location-button-icon</argument>
                             <argument name="inlined" xsi:type="boolean">true</argument>
                             <argument name="lazy_loaded" xsi:type="boolean">false</argument>
@@ -36,7 +36,7 @@
                     </block>
                     <block class="MageSuite\ThemeHelpers\Block\Icon" name="store-locator.icon.close">
                         <arguments>
-                            <argument name="icon_url" xsi:type="string">images/icons/close.svg</argument>
+                            <argument name="icon_url" xsi:type="string">images/icons/store-locator/icon-close.svg</argument>
                             <argument name="css_class" xsi:type="string">cs-store-locator__search-close-icon</argument>
                             <argument name="inlined" xsi:type="boolean">true</argument>
                             <argument name="lazy_loaded" xsi:type="boolean">false</argument>
@@ -44,8 +44,16 @@
                     </block>
                     <block class="MageSuite\ThemeHelpers\Block\Icon" name="store-locator.search.icon.submit">
                         <arguments>
-                            <argument name="icon_url" xsi:type="string">images/icons/search.svg</argument>
+                            <argument name="icon_url" xsi:type="string">images/icons/store-locator/icon-search.svg</argument>
                             <argument name="css_class" xsi:type="string">cs-store-locator__search-button-icon cs-store-locator__search-button-icon--search</argument>
+                            <argument name="inlined" xsi:type="boolean">true</argument>
+                            <argument name="lazy_loaded" xsi:type="boolean">false</argument>
+                        </arguments>
+                    </block>
+                    <block class="MageSuite\ThemeHelpers\Block\Icon" name="store-locator.search.icon.loader">
+                        <arguments>
+                            <argument name="icon_url" xsi:type="string">images/icons/store-locator/icon-spinner.svg</argument>
+                            <argument name="css_class" xsi:type="string">cs-store-locator__search-button-icon cs-store-locator__search-button-icon--loader</argument>
                             <argument name="inlined" xsi:type="boolean">true</argument>
                             <argument name="lazy_loaded" xsi:type="boolean">false</argument>
                         </arguments>
