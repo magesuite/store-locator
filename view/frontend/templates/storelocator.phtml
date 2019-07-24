@@ -36,7 +36,7 @@
                         <?= $block->getChildHtml('store-locator.icon.close'); ?>
                         <span class="cs-store-locator__search-close-label"><?= /* @escapeNotVerified */ __('Close search'); ?></span>
                     </span>
-                    <button class="cs-store-locator__search-button" id="store-locator-form-button">
+                    <button class="cs-store-locator__search-button" id="store-locator-form-button" type="button">
                         <div class="cs-store-locator__search-button-container cs-store-locator__search-button-container--search">
                             <?= $block->getChildHtml('store-locator.search.icon.submit'); ?>
                         </div>
@@ -46,7 +46,7 @@
                         <span class="cs-store-locator__search-button-label"><?= /* @escapeNotVerified */ __('Search'); ?></span>
                     </button>
                 </div>
-                <button class="cs-store-locator__location-button">
+                <button class="cs-store-locator__location-button" type="button">
                     <?= $block->getChildHtml('store-locator.location-icon'); ?>
                 </button>
         </form>
