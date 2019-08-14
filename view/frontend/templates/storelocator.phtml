@@ -2,6 +2,7 @@
     class="cs-store-locator"
     id="store-locator"
     data-image-path="<?= $this->getViewFileUrl('MageSuite_StoreLocator/images/store-locator'); ?>"
+    data-base-path="<?= $block->getUrl(); ?>"
 >
     <div class="cs-store-locator__sidebar">
         <div class="cs-store-locator__store-details"></div>    
@@ -20,7 +21,7 @@
                     maxlength="100"
                     aria-haspopup="false"
                     aria-autocomplete="both"
-                    autocomplete="off"
+                    autocomplete="off" 
                     data-mage-init='{
                 "storeLocatorQuickSearch":{
                     "formSelector":"#store-locator-search",
