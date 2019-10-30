@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="store_locator">
+            <tab>magesuite</tab>
+            <group id="page" translate="label" type="text" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Store locator page</label>
+                <field id="meta_title" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Meta title</label>
+                    <comment><![CDATA[Field is used to set meta tile for store locator page.]]></comment>
+                </field>
+                <field id="meta_description" translate="label" type="textarea" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Meta description</label>
+                    <comment><![CDATA[Field is used to set meta description for store locator page.]]></comment>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
