@@ -2,7 +2,7 @@
 
 namespace MageSuite\StoreLocator\Plugin\InventoryApi\SourceRepository;
 
-class SaveStoreLocatorPlugin
+class SaveStoreLocatorExtensionAttributes
 {
     public function beforeSave(
         \Magento\InventoryApi\Api\SourceRepositoryInterface $subject,

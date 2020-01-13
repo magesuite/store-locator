@@ -2,7 +2,7 @@
 
 namespace MageSuite\StoreLocator\Plugin\InventoryApi\SourceRepository;
 
-class LoadStoreLocatorOnGetListPlugin
+class LoadStoreLocatorExtensionAttributesOnGetList
 {
     /**
      * @var \MageSuite\StoreLocator\Model\Source\InitStoreLocatorExtensionAttributes
