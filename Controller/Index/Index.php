@@ -16,8 +16,7 @@ class Index extends \Magento\Framework\App\Action\Action
         \Magento\Framework\App\Action\Context $context,
         \Magento\Framework\View\Result\PageFactory $pageFactory,
         \MageSuite\StoreLocator\Helper\Configuration $configuration
-    )
-    {
+    ) {
         parent::__construct($context);
         $this->pageFactory = $pageFactory;
         $this->configuration = $configuration;
