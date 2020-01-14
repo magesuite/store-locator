@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\InventoryApi\Api\SourceRepositoryInterface">
+        <plugin name="load_store_locator_extension_attributes_on_get_list" type="MageSuite\StoreLocator\Plugin\InventoryApi\SourceRepository\LoadStoreLocatorExtensionAttributesOnGetList"/>
+        <plugin name="load_store_locator_extension_attributes_on_get" type="MageSuite\StoreLocator\Plugin\InventoryApi\SourceRepository\LoadStoreLocatorExtensionAttributesOnGet"/>
+        <plugin name="save_store_locator_extension_attributes" type="MageSuite\StoreLocator\Plugin\InventoryApi\SourceRepository\SaveStoreLocatorExtensionAttributes"/>
+    </type>
+
+    <type name="Magento\InventoryInStorePickupApi\Model\Mapper">
+        <arguments>
+            <argument name="map" xsi:type="array">
+                <item name="extension_attributes.url" xsi:type="string">extension_attributes.url</item>
+            </argument>
+        </arguments>
+    </type>
+</config>

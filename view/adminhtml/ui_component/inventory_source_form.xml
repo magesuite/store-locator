@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+    <fieldset name="contact_info">
+        <field name="url" formElement="input">
+            <settings>
+                <dataScope>extension_attributes.url</dataScope>
+                <dataType>string</dataType>
+                <label translate="true">URL</label>
+            </settings>
+        </field>
+    </fieldset>
+</form>
