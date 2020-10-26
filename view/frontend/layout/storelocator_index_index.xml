@@ -8,7 +8,7 @@
         <referenceContainer name="footer.usps.container" display="false" />
 
         <referenceContainer name="main">
-            <container name="before.store.locator" label="Before Store Locator" htmlTag="div" htmlClass="cs-container cs-store-locator__before" before="-"/>    
+            <container name="before.store.locator" label="Above Storelocator map" htmlTag="div" htmlClass="cs-container cs-store-locator__before" before="-"/>    
             <container name="store.locator.container" htmlTag="div" htmlClass="cs-container cs-container--store-locator" after="-">
                 <block name="storelocator" template="MageSuite_StoreLocator::storelocator.phtml">
                     <block class="MageSuite\ThemeHelpers\Block\Icon" name="store-locator.sidebar-toggler-icon">
@@ -61,7 +61,7 @@
                     </block>
                 </block>
             </container>
-            <container name="after.store.locator" label="After Store Locator" htmlTag="div" htmlClass="cs-container cs-store-locator__after" after="-"/>  
+            <container name="after.store.locator" label="Below Storelocator map" htmlTag="div" htmlClass="cs-container cs-store-locator__after" after="-"/>  
         </referenceContainer>
     </body>
 </page>
