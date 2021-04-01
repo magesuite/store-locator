@@ -11,6 +11,9 @@
             <argument name="map" xsi:type="array">
                 <item name="extension_attributes.url" xsi:type="string">extension_attributes.url</item>
             </argument>
+            <argument name="preProcessors" xsi:type="array">
+                <item name="extension_attributes.frontend_name" xsi:type="object">MageSuite\StoreLocator\Model\PickupLocation\Mapper\PreProcessor\FrontendName</item>
+            </argument>
         </arguments>
     </type>
 </config>
