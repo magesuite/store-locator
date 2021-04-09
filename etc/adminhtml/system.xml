@@ -5,6 +5,11 @@
             <tab>magesuite</tab>
             <group id="page" translate="label" type="text" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
                 <label>Store locator page</label>
+                <field id="is_enabled" translate="label" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Is Enabled</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                    <comment><![CDATA[If disabled customer will be redirected to the Base URL.]]></comment>
+                </field>
                 <field id="meta_title" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
                     <label>Meta title</label>
                     <comment><![CDATA[Field is used to set meta tile for store locator page.]]></comment>
