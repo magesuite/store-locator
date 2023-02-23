@@ -1,0 +1,2 @@
+"source_code","name","description","latitude","longitude","country_id","city","street","postcode","url","stock_name"
+dummy_source_code,"Dummy name","Dummy description",48.206627,16.369188,"US","Los Angeles","Street",1,https://example.com/,"stock-name-1"

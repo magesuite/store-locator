@@ -24,8 +24,7 @@ class Index extends \Magento\Framework\App\Action\Action
         \Magento\Framework\View\Result\PageFactory $pageFactory,
         \Magento\Store\Model\StoreManager $storeManager,
         \MageSuite\StoreLocator\Helper\Configuration $configuration
-    )
-    {
+    ) {
         parent::__construct($context);
         $this->pageFactory = $pageFactory;
         $this->storeManager = $storeManager;
