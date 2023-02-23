@@ -16,4 +16,22 @@
             </argument>
         </arguments>
     </type>
+
+    <type name="MageSuite\StoreLocator\Model\Import\Source">
+        <arguments>
+            <argument name="validColumnNames" xsi:type="array">
+                <item name="source_code" xsi:type="string">source_code</item>
+                <item name="name" xsi:type="string">name</item>
+                <item name="description" xsi:type="string">description</item>
+                <item name="latitude" xsi:type="string">latitude</item>
+                <item name="longitude" xsi:type="string">longitude</item>
+                <item name="country_id" xsi:type="string">country_id</item>
+                <item name="city" xsi:type="string">city</item>
+                <item name="street" xsi:type="string">street</item>
+                <item name="postcode" xsi:type="string">postcode</item>
+                <item name="url" xsi:type="string">url</item>
+                <item name="stock_name" xsi:type="string">stock_name</item>
+            </argument>
+        </arguments>
+    </type>
 </config>

@@ -1,4 +1,5 @@
 <?php
+declare(strict_types=1);
 
 namespace MageSuite\StoreLocator\Helper;
 
@@ -8,28 +9,25 @@ class Configuration
     const META_TITLE_CONFIG_PATH = 'store_locator/page/meta_title';
     const META_DESCRIPTION_CONFIG_PATH = 'store_locator/page/meta_description';
 
-    /**
-     * @var \Magento\Framework\App\Config\ScopeConfigInterface
-     */
-    protected $scopeConfigInterface;
+    protected \Magento\Framework\App\Config\ScopeConfigInterface $scopeConfig;
 
-    public function __construct(\Magento\Framework\App\Config\ScopeConfigInterface $scopeConfigInterface)
+    public function __construct(\Magento\Framework\App\Config\ScopeConfigInterface $scopeConfig)
     {
-        $this->scopeConfigInterface = $scopeConfigInterface;
+        $this->scopeConfig = $scopeConfig;
     }
 
-    public function isEnabled()
+    public function isEnabled($storeId = null): bool
     {
-        return $this->scopeConfigInterface->getValue(self::IS_ENABLED_CONFIG_PATH, \Magento\Store\Model\ScopeInterface::SCOPE_STORE);
+        return $this->scopeConfig->isSetFlag(self::IS_ENABLED_CONFIG_PATH, \Magento\Store\Model\ScopeInterface::SCOPE_STORE, $storeId);
     }
 
-    public function getMetaTitle()
+    public function getMetaTitle($storeId = null): string
     {
-        return $this->scopeConfigInterface->getValue(self::META_TITLE_CONFIG_PATH, \Magento\Store\Model\ScopeInterface::SCOPE_STORE);
+        return (string)$this->scopeConfig->getValue(self::META_TITLE_CONFIG_PATH, \Magento\Store\Model\ScopeInterface::SCOPE_STORE, $storeId);
     }
 
-    public function getMetaDescription()
+    public function getMetaDescription($storeId = null): string
     {
-        return $this->scopeConfigInterface->getValue(self::META_DESCRIPTION_CONFIG_PATH, \Magento\Store\Model\ScopeInterface::SCOPE_STORE);
+        return (string)$this->scopeConfig->getValue(self::META_DESCRIPTION_CONFIG_PATH, \Magento\Store\Model\ScopeInterface::SCOPE_STORE, $storeId);
     }
 }

@@ -4,7 +4,10 @@
   "homepage": "https://creativestyle.de",
   "license": "OSL-3.0",
   "type": "magento2-module",
-  "require": {},
+  "require": {
+      "creativestyle/magesuite-google-api": "^1.0.0",
+      "creativestyle/magesuite-store-locator-graph-ql": "^2.0.0"
+  },
   "autoload": {
     "files": [
       "registration.php"
