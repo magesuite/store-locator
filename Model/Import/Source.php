@@ -11,6 +11,7 @@ class Source extends \Magento\ImportExport\Model\Import\Entity\AbstractEntity
     protected $needColumnCheck = true;
     protected $logInHistory = true;
     protected array $stockCache = [];
+    protected int $linkPriority = 0;
 
     protected \Magento\Framework\DB\Adapter\AdapterInterface $connection;
     protected \Magento\Framework\App\ResourceConnection $resource;
@@ -128,46 +129,50 @@ class Source extends \Magento\ImportExport\Model\Import\Entity\AbstractEntity
     {
         $behavior = $this->getBehavior();
         $rows = [];
-        $sourceToStockLink = [];
-        $linkPriority = 0;
+        $this->linkPriority = 0;
 
         while ($bunch = $this->_dataSourceModel->getNextBunch()) {
-            $entityList = [];
+            $this->processBunch($bunch);
+        }
+    }
 
-            foreach ($bunch as $rowNum => $row) {
-                if (!$this->validateRow($row, $rowNum)) {
-                    continue;
-                }
+    public function processBunch(array $bunch): void
+    {
+        $entityList = [];
+        $sourceToStockLink = [];
 
-                if ($this->getErrorAggregator()->hasToBeTerminated()) {
-                    $this->getErrorAggregator()->addRowToSkip($rowNum);
-                    continue;
-                }
-
-                $rowId = $row[static::SOURCE_CODE_COLUMN];
-                $columnValues = [];
-
-                foreach ($this->getAvailableColumns() as $columnKey) {
-                    $columnValues[$columnKey] = $row[$columnKey];
-                }
-
-                if (isset($row['stock_name']) && $stockId = $this->getStockIdByName($row['stock_name'])) {
-                    $sourceToStockLink[] = [
-                        'stock_id' => $stockId,
-                        'source_code' => $row['source_code'],
-                        'priority' => $linkPriority
-                    ];
-                    ++$linkPriority;
-                }
-
-                $entityList[$rowId] = $columnValues;
-                $this->countItemsCreated += (int) !isset($row[static::SOURCE_CODE_COLUMN]);
-                $this->countItemsUpdated += (int) isset($row[static::SOURCE_CODE_COLUMN]);
+        foreach ($bunch as $rowNum => $row) {
+            if (!$this->validateRow($row, $rowNum)) {
+                continue;
             }
 
-            $this->saveSourceData($entityList);
+            if ($this->getErrorAggregator()->hasToBeTerminated()) {
+                $this->getErrorAggregator()->addRowToSkip($rowNum);
+                continue;
+            }
+
+            $rowId = $row[static::SOURCE_CODE_COLUMN];
+            $columnValues = [];
+
+            foreach ($this->getAvailableColumns() as $columnKey) {
+                $columnValues[$columnKey] = $row[$columnKey] ?? null;
+            }
+
+            if (isset($row['stock_name']) && $stockId = $this->getStockIdByName($row['stock_name'])) {
+                $sourceToStockLink[] = [
+                    'stock_id' => $stockId,
+                    'source_code' => $row['source_code'],
+                    'priority' => $this->linkPriority
+                ];
+                ++$this->linkPriority;
+            }
+
+            $entityList[$rowId] = $columnValues;
+            $this->countItemsCreated += (int) !isset($row[static::SOURCE_CODE_COLUMN]);
+            $this->countItemsUpdated += (int) isset($row[static::SOURCE_CODE_COLUMN]);
         }
 
+        $this->saveSourceData($entityList);
         $this->saveSourceToStockLink($sourceToStockLink);
     }
 
