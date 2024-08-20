@@ -1,3 +1,8 @@
+"Distance","Distanță",module,MageSuite_StoreLocator
 "Find a store","Găsiți un magazin",module,MageSuite_StoreLocator
+"Route","Rută",module,MageSuite_StoreLocator
 "Search for Zip/Place","Căutare după cod poștal/Localitate",module,MageSuite_StoreLocator
+"Show more stores","Afișați mai multe magazine",module,MageSuite_StoreLocator
 "Unfortunately geolocation is not enabled on your device or browser.","Din păcate, geolocația nu este activată pe dispozitivul sau browser-ul dvs.",module,MageSuite_StoreLocator
+"Unfortunately we do not have any stores in your area. Please zoom the map to see bigger area.","Din păcate, nu avem magazine în zona dvs. Vă rugăm să faceți zoom pe hartă pentru a vedea o zonă mai mare.",module,MageSuite_StoreLocator
+"Unfortunately we were not able to find this location.","Din păcate, nu am putut găsi această locație.",module,MageSuite_StoreLocator

@@ -1,3 +1,8 @@
+"Distance","Vzdálenost",module,MageSuite_StoreLocator
 "Find a store",Najít obchod,module,MageSuite_StoreLocator
+"Route","Trasa",module,MageSuite_StoreLocator
 "Search for Zip/Place","Hledat podle PSČ/Místa",module,MageSuite_StoreLocator
+"Show more stores","Zobrazit více obchodů",module,MageSuite_StoreLocator
 "Unfortunately geolocation is not enabled on your device or browser.","Bohužel není povolena geolokace na vašem zařízení nebo prohlížeči.",module,MageSuite_StoreLocator
+"Unfortunately we do not have any stores in your area. Please zoom the map to see bigger area.","Bohužel nemáme žádné obchody ve vaší oblasti. Přibližte mapu, abyste viděli větší oblast.",module,MageSuite_StoreLocator
+"Unfortunately we were not able to find this location.","Bohužel jsme nebyli schopni najít tuto polohu.",module,MageSuite_StoreLocator

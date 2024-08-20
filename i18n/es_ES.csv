@@ -1,3 +1,8 @@
+"Distance","Distancia",module,MageSuite_StoreLocator
 "Find a store","Encuentra una tienda",module,MageSuite_StoreLocator
+"Route","Ruta",module,MageSuite_StoreLocator
 "Search for Zip/Place","Buscar por código postal/lugar",module,MageSuite_StoreLocator
+"Show more stores","Mostrar más tiendas",module,MageSuite_StoreLocator
 "Unfortunately geolocation is not enabled on your device or browser.","Lamentablemente, la geolocalización no está activada en su dispositivo o navegador.",module,MageSuite_StoreLocator
+"Unfortunately we do not have any stores in your area. Please zoom the map to see bigger area.","Lamentablemente no tenemos ninguna tienda en su área. Por favor, haga zoom en el mapa para ver un área más grande.",module,MageSuite_StoreLocator
+"Unfortunately we were not able to find this location.","Lamentablemente no pudimos encontrar esta ubicación.",module,MageSuite_StoreLocator
