@@ -1,1 +1,3 @@
-Search,Pesquisa
+"Find a store","Encontrar uma loja",module,MageSuite_StoreLocator
+"Search for Zip/Place","Pesquisar por CEP/Local",module,MageSuite_StoreLocator
+"Unfortunately geolocation is not enabled on your device or browser.","Infelizmente, a geolocalização não está ativada no seu dispositivo ou navegador.",module,MageSuite_StoreLocator

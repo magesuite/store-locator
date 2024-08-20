@@ -1,0 +1,3 @@
+"Find a store","Βρείτε ένα κατάστημα",module,MageSuite_StoreLocator
+"Search for Zip/Place","Αναζήτηση με ταχυδρομικό κώδικα/Τοποθεσία",module,MageSuite_StoreLocator
+"Unfortunately geolocation is not enabled on your device or browser.","Δυστυχώς, η γεωγραφική τοποθεσία δεν είναι ενεργοποιημένη στη συσκευή ή το πρόγραμμα περιήγησής σας.",module,MageSuite_StoreLocator

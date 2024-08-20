@@ -1,0 +1,3 @@
+"Find a store","Znajdź sklep",module,MageSuite_StoreLocator
+"Search for Zip/Place","Szukaj według kodu pocztowego/miejscowości",module,MageSuite_StoreLocator
+"Unfortunately geolocation is not enabled on your device or browser.","Niestety, geolokalizacja nie jest włączona na Twoim urządzeniu ani w przeglądarce.",module,MageSuite_StoreLocator
