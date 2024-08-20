@@ -1,3 +1,8 @@
+"Distance","Απόσταση",module,MageSuite_StoreLocator
 "Find a store","Βρείτε ένα κατάστημα",module,MageSuite_StoreLocator
+"Route","Διαδρομή",module,MageSuite_StoreLocator
 "Search for Zip/Place","Αναζήτηση με ταχυδρομικό κώδικα/Τοποθεσία",module,MageSuite_StoreLocator
+"Show more stores","Εμφάνιση περισσότερων καταστημάτων",module,MageSuite_StoreLocator
 "Unfortunately geolocation is not enabled on your device or browser.","Δυστυχώς, η γεωγραφική τοποθεσία δεν είναι ενεργοποιημένη στη συσκευή ή το πρόγραμμα περιήγησής σας.",module,MageSuite_StoreLocator
+"Unfortunately we do not have any stores in your area. Please zoom the map to see bigger area.","Δυστυχώς δεν έχουμε καταστήματα στην περιοχή σας. Παρακαλώ μεγεθύνετε το χάρτη για να δείτε μεγαλύτερη περιοχή.",module,MageSuite_StoreLocator
+"Unfortunately we were not able to find this location.","Δυστυχώς δεν καταφέραμε να βρούμε αυτή την τοποθεσία.",module,MageSuite_StoreLocator

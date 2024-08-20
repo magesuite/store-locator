@@ -1,3 +1,8 @@
+"Distance","Afstand",module,MageSuite_StoreLocator
 "Find a store","Vind een winkel",module,MageSuite_StoreLocator
+"Route","Route",module,MageSuite_StoreLocator
 "Search for Zip/Place","Zoeken op postcode/plaats",module,MageSuite_StoreLocator
+"Show more stores","Toon meer winkels",module,MageSuite_StoreLocator
 "Unfortunately geolocation is not enabled on your device or browser.","Helaas is geolocatie niet ingeschakeld op uw apparaat of browser.",module,MageSuite_StoreLocator
+"Unfortunately we do not have any stores in your area. Please zoom the map to see bigger area.","Helaas hebben we geen winkels in uw omgeving. Zoom in op de kaart om een groter gebied te zien.",module,MageSuite_StoreLocator
+"Unfortunately we were not able to find this location.","Helaas konden we deze locatie niet vinden.",module,MageSuite_StoreLocator
