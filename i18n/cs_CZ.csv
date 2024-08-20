@@ -1,0 +1,3 @@
+"Find a store",Najít obchod,module,MageSuite_StoreLocator
+"Search for Zip/Place","Hledat podle PSČ/Místa",module,MageSuite_StoreLocator
+"Unfortunately geolocation is not enabled on your device or browser.","Bohužel není povolena geolokace na vašem zařízení nebo prohlížeči.",module,MageSuite_StoreLocator

@@ -1,2 +1,3 @@
-Search,Zoeken
-URL,URL
+"Find a store","Vind een winkel",module,MageSuite_StoreLocator
+"Search for Zip/Place","Zoeken op postcode/plaats",module,MageSuite_StoreLocator
+"Unfortunately geolocation is not enabled on your device or browser.","Helaas is geolocatie niet ingeschakeld op uw apparaat of browser.",module,MageSuite_StoreLocator

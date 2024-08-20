@@ -1,2 +1,3 @@
-Search,Buscar
-"Unfortunately geolocation is not enabled on your device or browser.","Lamentablemente, la geolocalización no está activada en su dispositivo o navegador."
+"Find a store","Encuentra una tienda",module,MageSuite_StoreLocator
+"Search for Zip/Place","Buscar por código postal/lugar",module,MageSuite_StoreLocator
+"Unfortunately geolocation is not enabled on your device or browser.","Lamentablemente, la geolocalización no está activada en su dispositivo o navegador.",module,MageSuite_StoreLocator

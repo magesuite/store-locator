@@ -1,0 +1,3 @@
+"Find a store","Găsiți un magazin",module,MageSuite_StoreLocator
+"Search for Zip/Place","Căutare după cod poștal/Localitate",module,MageSuite_StoreLocator
+"Unfortunately geolocation is not enabled on your device or browser.","Din păcate, geolocația nu este activată pe dispozitivul sau browser-ul dvs.",module,MageSuite_StoreLocator
