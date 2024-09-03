@@ -1,0 +1,8 @@
+"Distance","Attālums",module,MageSuite_StoreLocator
+"Find a store","Veikala atrašana",module,MageSuite_StoreLocator
+"Route","Maršruts",module,MageSuite_StoreLocator
+"Search for Zip/Place","Meklēt Zip/vieta",module,MageSuite_StoreLocator
+"Show more stores","Rādīt vairāk veikalu",module,MageSuite_StoreLocator
+"Unfortunately geolocation is not enabled on your device or browser.","Diemžēl jūsu ierīcē vai pārlūkprogrammā nav iespējota ģeogrāfiskās atrašanās vietas noteikšana.",module,MageSuite_StoreLocator
+"Unfortunately we do not have any stores in your area. Please zoom the map to see bigger area.","Diemžēl jūsu reģionā mums nav veikalu. Lūdzu, palieliniet karti, lai redzētu lielāku teritoriju.",module,MageSuite_StoreLocator
+"Unfortunately we were not able to find this location.","Diemžēl mums neizdevās atrast šo vietu.",module,MageSuite_StoreLocator

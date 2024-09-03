@@ -1,0 +1,8 @@
+"Distance","Udaljenost",module,MageSuite_StoreLocator
+"Find a store",Pronađite trgovinu,module,MageSuite_StoreLocator
+"Ruta","Útvonal",module,MageSuite_StoreLocator
+"Search for Zip/Place","Traži poštanski broj/mjesta",module,MageSuite_StoreLocator
+"Show more stores","Prikaži više trgovina",module,MageSuite_StoreLocator
+"Unfortunately geolocation is not enabled on your device or browser.","Nažalost, geolokacija nije omogućena na vašem uređaju ili pregledniku.",module,MageSuite_StoreLocator
+"Unfortunately we do not have any stores in your area. Please zoom the map to see bigger area.","Nažalost, nemamo nijednu trgovinu u vašem području. Molimo zumirajte kartu da vidite veće područje.",module,MageSuite_StoreLocator
+"Unfortunately we were not able to find this location.","Nažalost nismo uspjeli pronaći ovu lokaciju.",module,MageSuite_StoreLocator

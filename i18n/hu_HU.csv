@@ -1,0 +1,8 @@
+"Distance","Távolság",module,MageSuite_StoreLocator
+"Find a store",Keressen egy boltot,module,MageSuite_StoreLocator
+"Route","Útvonal",module,MageSuite_StoreLocator
+"Search for Zip/Place","Irányítószám/Település keresése",module,MageSuite_StoreLocator
+"Show more stores","További üzletek megjelenítése",module,MageSuite_StoreLocator
+"Unfortunately geolocation is not enabled on your device or browser.","Sajnos a geolokáció nincs engedélyezve az Ön eszközén vagy böngészőjében.",module,MageSuite_StoreLocator
+"Unfortunately we do not have any stores in your area. Please zoom the map to see bigger area.","Sajnos nincs üzletünk az Ön területén. Kérjük, nagyítsa ki a térképet a nagyobb terület megtekintéséhez.",module,MageSuite_StoreLocator
+"Unfortunately we were not able to find this location.","Sajnos nem tudtuk megtalálni ezt a helyet.",module,MageSuite_StoreLocator

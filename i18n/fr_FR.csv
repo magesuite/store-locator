@@ -3,6 +3,6 @@
 "Route","Itinéraire",module,MageSuite_StoreLocator
 "Search for Zip/Place","Rechercher par code postal/lieu",module,MageSuite_StoreLocator
 "Show more stores","Afficher plus de magasins",module,MageSuite_StoreLocator
-"Unfortunately geolocation is not enabled on your device or browser.","Malheureusement, la géolocalisation n\'est pas activée sur votre appareil ou votre navigateur.",module,MageSuite_StoreLocator
-"Unfortunately we do not have any stores in your area. Please zoom the map to see bigger area.","Malheureusement, nous n\'avons pas de magasins dans votre région. Veuillez zoomer sur la carte pour voir une zone plus grande.",module,MageSuite_StoreLocator
-"Unfortunately we were not able to find this location.","Malheureusement, nous n\'avons pas pu trouver cet emplacement.",module,MageSuite_StoreLocator
+"Unfortunately geolocation is not enabled on your device or browser.","Malheureusement, la géolocalisation n'est pas activée sur votre appareil ou votre navigateur.",module,MageSuite_StoreLocator
+"Unfortunately we do not have any stores in your area. Please zoom the map to see bigger area.","Malheureusement, nous n'avons pas de magasins dans votre région. Veuillez zoomer sur la carte pour voir une zone plus grande.",module,MageSuite_StoreLocator
+"Unfortunately we were not able to find this location.","Malheureusement, nous n'avons pas pu trouver cet emplacement.",module,MageSuite_StoreLocator

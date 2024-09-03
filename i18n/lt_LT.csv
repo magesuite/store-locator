@@ -1,0 +1,8 @@
+"Distance","Atstumas",module,MageSuite_StoreLocator
+"Find a store","Raskite parduotuvę",module,MageSuite_StoreLocator
+"Route","Maršrutas",module,MageSuite_StoreLocator
+"Search for Zip/Place","Zip/vietovės paieška",module,MageSuite_StoreLocator
+"Show more stores","Rodyti daugiau parduotuvių",module,MageSuite_StoreLocator
+"Unfortunately geolocation is not enabled on your device or browser.","Deja, jūsų prietaise arba naršyklėje geolokacija neįjungta.",module,MageSuite_StoreLocator
+"Unfortunately we do not have any stores in your area. Please zoom the map to see bigger area.","Deja, jūsų vietovėje neturime parduotuvių. Padidinkite žemėlapį, kad pamatytumėte didesnį plotą.",module,MageSuite_StoreLocator
+"Unfortunately we were not able to find this location.","Deja, šios vietos rasti nepavyko.",module,MageSuite_StoreLocator

@@ -1,0 +1,8 @@
+"Distance","Etäisyys",module,MageSuite_StoreLocator
+"Find a store","Etsi myymälä",module,MageSuite_StoreLocator
+"Route","Reitti",module,MageSuite_StoreLocator
+"Search for Zip/Place","Etsi postinumero/paikka",module,MageSuite_StoreLocator
+"Show more stores","Näytä lisää kauppoja",module,MageSuite_StoreLocator
+"Unfortunately geolocation is not enabled on your device or browser.","Valitettavasti geopaikannus ei ole käytössä laitteessasi tai selaimessasi.",module,MageSuite_StoreLocator
+"Unfortunately we do not have any stores in your area. Please zoom the map to see bigger area.","Valitettavasti meillä ei ole myymälöitä alueellasi. Zoomaa karttaa nähdäksesi suuremman alueen.",module,MageSuite_StoreLocator
+"Unfortunately we were not able to find this location.",Valitettavasti emme löytäneet tätä paikkaa.",module,MageSuite_StoreLocator
