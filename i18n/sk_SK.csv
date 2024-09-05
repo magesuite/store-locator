@@ -1,0 +1,8 @@
+"Distance","Vzdialenosť",module,MageSuite_StoreLocator
+"Find a store","Nájsť obchod",module,MageSuite_StoreLocator
+"Route","Trasa",module,MageSuite_StoreLocator
+"Search for Zip/Place","Vyhľadávanie PSČ/miesta",module,MageSuite_StoreLocator
+"Show more stores","Zobraziť viac obchodov",module,MageSuite_StoreLocator
+"Unfortunately geolocation is not enabled on your device or browser.","Vo vašom zariadení alebo prehliadači bohužiaľ nie je povolená geolokalizácia.",module,MageSuite_StoreLocator
+"Unfortunately we do not have any stores in your area. Please zoom the map to see bigger area.","Bohužiaľ, vo vašej oblasti nemáme žiadne predajne. Zväčšite mapu, aby ste videli väčšiu oblasť.",module,MageSuite_StoreLocator
+"Unfortunately we were not able to find this location.","Túto lokalitu sa nám bohužiaľ nepodarilo nájsť.",module,MageSuite_StoreLocator
