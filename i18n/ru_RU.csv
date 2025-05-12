@@ -1,5 +1,6 @@
 "Distance","Расстояние",module,MageSuite_StoreLocator
 "Find a store","Найти магазин",module,MageSuite_StoreLocator
+"Find my location","Найти моё местоположение",module,MageSuite_StoreLocator
 "Route","Маршрут",module,MageSuite_StoreLocator
 "Search for Zip/Place","Поиск по индексу/месту",module,MageSuite_StoreLocator
 "Show more stores","Показать больше магазинов",module,MageSuite_StoreLocator

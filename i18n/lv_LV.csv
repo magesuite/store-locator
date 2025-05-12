@@ -1,5 +1,6 @@
 "Distance","Attālums",module,MageSuite_StoreLocator
 "Find a store","Veikala atrašana",module,MageSuite_StoreLocator
+"Find my location","Atrodiet manu atrašanās vietu",module,MageSuite_StoreLocator
 "Route","Maršruts",module,MageSuite_StoreLocator
 "Search for Zip/Place","Meklēt Zip/vieta",module,MageSuite_StoreLocator
 "Show more stores","Rādīt vairāk veikalu",module,MageSuite_StoreLocator

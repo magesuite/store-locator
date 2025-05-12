@@ -1,5 +1,6 @@
 "Distance","Etäisyys",module,MageSuite_StoreLocator
 "Find a store","Etsi myymälä",module,MageSuite_StoreLocator
+"Find my location","Etsi sijaintini",module,MageSuite_StoreLocator
 "Route","Reitti",module,MageSuite_StoreLocator
 "Search for Zip/Place","Etsi postinumero/paikka",module,MageSuite_StoreLocator
 "Show more stores","Näytä lisää kauppoja",module,MageSuite_StoreLocator

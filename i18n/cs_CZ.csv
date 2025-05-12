@@ -1,5 +1,6 @@
 "Distance","Vzdálenost",module,MageSuite_StoreLocator
 "Find a store",Najít obchod,module,MageSuite_StoreLocator
+"Find my location","Najít mou polohu",module,MageSuite_StoreLocator
 "Route","Trasa",module,MageSuite_StoreLocator
 "Search for Zip/Place","Hledat podle PSČ/Místa",module,MageSuite_StoreLocator
 "Show more stores","Zobrazit více obchodů",module,MageSuite_StoreLocator
