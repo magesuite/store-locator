@@ -1,5 +1,6 @@
 "Distance","Odległość",module,MageSuite_StoreLocator
 "Find a store","Znajdź sklep",module,MageSuite_StoreLocator
+"Find my location","Znajdź moją lokalizację",module,MageSuite_StoreLocator
 "Route","Trasa",module,MageSuite_StoreLocator
 "Search for Zip/Place","Szukaj według kodu pocztowego/miejscowości",module,MageSuite_StoreLocator
 "Show more stores","Pokaż więcej sklepów",module,MageSuite_StoreLocator

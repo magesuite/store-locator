@@ -19,6 +19,7 @@
                     name="store-locator-search"
                     value=""
                     placeholder="<?= $escaper->escapeHtmlAttr(__('Search for Zip/Place')) ?>"
+                    aria-label="<?= $escaper->escapeHtmlAttr(__('Search for Zip/Place')) ?>"
                     maxlength="100"
                     aria-haspopup="false"
                     aria-autocomplete="both"
@@ -48,12 +49,12 @@
                         <span class="cs-store-locator__search-button-label"><?= $escaper->escapeHtml(__('Search')) ?></span>
                     </button>
                 </div>
-                <button class="cs-store-locator__location-button" type="button">
+                <button class="cs-store-locator__location-button" type="button" aria-label="<?= $escaper->escapeHtmlAttr( __('Find my location')) ?>">
                     <?= $block->getChildHtml('store-locator.location-icon'); ?>
                 </button>
         </form>
         </div>
-        <div class="cs-store-locator__stores-list">
+        <div class="cs-store-locator__stores-list" tabindex="0" role="region">
             <div class="cs-store-locator__stores-list-inner" aria-live="polite" aria-atomic="true"></div>
         </div>
     </div>

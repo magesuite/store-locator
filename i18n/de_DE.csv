@@ -1,5 +1,6 @@
 "Distance","Entfernung",module,MageSuite_StoreLocator
 "Find a store","Händler finden",module,MageSuite_StoreLocator
+"Find my location","Finde meinen Standort",module,MageSuite_StoreLocator
 "Route","Route",module,MageSuite_StoreLocator
 "Search for Zip/Place","Suche nach PLZ/Ort",module,MageSuite_StoreLocator
 "Show more stores","Mehr anzeigen",module,MageSuite_StoreLocator

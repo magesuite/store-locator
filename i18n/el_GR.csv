@@ -1,5 +1,6 @@
 "Distance","Απόσταση",module,MageSuite_StoreLocator
 "Find a store","Βρείτε ένα κατάστημα",module,MageSuite_StoreLocator
+"Find my location","Βρείτε την τοποθεσία μου",module,MageSuite_StoreLocator
 "Route","Διαδρομή",module,MageSuite_StoreLocator
 "Search for Zip/Place","Αναζήτηση με ταχυδρομικό κώδικα/Τοποθεσία",module,MageSuite_StoreLocator
 "Show more stores","Εμφάνιση περισσότερων καταστημάτων",module,MageSuite_StoreLocator
