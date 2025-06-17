@@ -11,6 +11,9 @@
             <container name="before.store.locator" label="Above Storelocator map" htmlTag="div" htmlClass="cs-container cs-store-locator__before" before="-"/>
             <container name="store.locator.container" htmlTag="div" htmlClass="cs-container cs-container--store-locator" after="-">
                 <block name="storelocator" template="MageSuite_StoreLocator::storelocator.phtml">
+                    <arguments>
+                        <argument name="view_model" xsi:type="object">MageSuite\GoogleApi\Model\ViewModel\ScriptTag</argument>
+                    </arguments>
                     <block class="MageSuite\ThemeHelpers\Block\Icon" name="store-locator.sidebar-toggler-icon">
                         <arguments>
                             <argument name="icon_url" xsi:type="string">images/icons/arrow_down.svg</argument>
