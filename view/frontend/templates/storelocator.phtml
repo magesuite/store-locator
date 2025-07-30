@@ -1,4 +1,5 @@
 <?php 
+/** @var \Magento\Framework\Escaper $escaper */
 /** @var \Magento\Framework\View\Element\Template $block */
 /** @var $viewModel \MageSuite\GoogleApi\Model\ViewModel\ScriptTag */
 $viewModel = $block->getViewModel();
@@ -66,5 +67,8 @@ $viewModel = $block->getViewModel();
     <div class="cs-store-locator__map-container">
         <div class="cs-store-locator__map" id="store-locator-map">
         </div>
+    </div>
+    <div class="cs-store-locator__consent-info">
+        <?= $escaper->escapeHtml(__('In order to use Google Maps please adjust <a href="#">Privacy Settings</a>.'), ['a']) ?>
     </div>
 </section>
