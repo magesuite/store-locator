@@ -1,15 +1,17 @@
-<?php 
+<?php
 /** @var \Magento\Framework\Escaper $escaper */
 /** @var \Magento\Framework\View\Element\Template $block */
 /** @var $viewModel \MageSuite\GoogleApi\Model\ViewModel\ScriptTag */
 $viewModel = $block->getViewModel();
+$googleMapId = $escaper->escapeHtmlAttr($viewModel->getMapId());
 ?>
+
 <section
     class="cs-store-locator"
     id="store-locator"
     data-image-path="<?= $escaper->escapeHtmlAttr($block->getViewFileUrl('MageSuite_StoreLocator/images/store-locator')) ?>"
     data-base-path="<?= $escaper->escapeHtmlAttr($block->getUrl()) ?>"
-    data-map-id="<?= $escaper->escapeHtmlAttr($viewModel->getFrontendApiKey()) ?>"
+    <?php if ($googleMapId): ?>data-map-id="<?= $googleMapId; ?>"<?php endif; ?>
 >
     <div class="cs-store-locator__sidebar">
         <div class="cs-store-locator__store-details"></div>
