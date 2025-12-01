@@ -48,12 +48,12 @@ $googleMapId = $escaper->escapeHtmlAttr($viewModel->getMapId());
                         <span class="cs-store-locator__search-close-label"><?= $escaper->escapeHtml(__('Close search')) ?></span>
                     </span>
                     <button class="cs-store-locator__search-button" id="store-locator-form-button" type="button">
-                        <div class="cs-store-locator__search-button-container cs-store-locator__search-button-container--search">
+                        <span class="cs-store-locator__search-button-container cs-store-locator__search-button-container--search">
                             <?= $block->getChildHtml('store-locator.search.icon.submit'); ?>
-                        </div>
-                        <div class="cs-store-locator__search-button-container cs-store-locator__search-button-container--loader">
+                        </span>
+                        <span class="cs-store-locator__search-button-container cs-store-locator__search-button-container--loader">
                             <?= $block->getChildHtml('store-locator.search.icon.loader'); ?>
-                        </div>
+                        </span>
                         <span class="cs-store-locator__search-button-label"><?= $escaper->escapeHtml(__('Search')) ?></span>
                     </button>
                 </div>
